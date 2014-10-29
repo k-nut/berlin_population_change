@@ -58,7 +58,7 @@ require(["leaflet", "omnivore", "lodash", "jquery"], function(L, omnivore, _, $)
     });
   };
 
-  omnivore.topojson("/berlin_bezirke.topojson", null, districtLayer).addTo(map).on("ready",
+  omnivore.topojson("./berlin_bezirke.topojson", null, districtLayer).addTo(map).on("ready",
     function(){
       var years = _.range(2001,2013);
       var counter = 0;
