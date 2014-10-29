@@ -1,0 +1,602 @@
+{
+  "2001": {
+    "Reinickendorf": {
+      "change": "1.000000",
+      "value": "239514"
+    },
+    "Friedrichshain-Kreuzberg": {
+      "change": "1.000000",
+      "value": "239066"
+    },
+    "Treptow-K\u00f6penick": {
+      "change": "1.000000",
+      "value": "221925"
+    },
+    "Lichtenberg": {
+      "change": "1.000000",
+      "value": "254315"
+    },
+    "Mitte": {
+      "change": "1.000000",
+      "value": "318082"
+    },
+    "Spandau": {
+      "change": "1.000000",
+      "value": "208108"
+    },
+    "Charlottenburg-Wilmersdorf": {
+      "change": "1.000000",
+      "value": "300959"
+    },
+    "Tempelhof-Sch\u00f6neberg": {
+      "change": "1.000000",
+      "value": "323702"
+    },
+    "Pankow": {
+      "change": "1.000000",
+      "value": "331199"
+    },
+    "Marzahn-Hellersdorf": {
+      "change": "1.000000",
+      "value": "251044"
+    },
+    "Steglitz-Zehlendorf": {
+      "change": "1.000000",
+      "value": "279163"
+    },
+    "Neuk\u00f6lln": {
+      "change": "1.000000",
+      "value": "303071"
+    }
+  },
+  "2002": {
+    "Reinickendorf": {
+      "change": "1.000100",
+      "value": "239538"
+    },
+    "Friedrichshain-Kreuzberg": {
+      "change": "1.007793",
+      "value": "240929"
+    },
+    "Treptow-K\u00f6penick": {
+      "change": "0.998243",
+      "value": "221535"
+    },
+    "Lichtenberg": {
+      "change": "0.996343",
+      "value": "253385"
+    },
+    "Mitte": {
+      "change": "1.001893",
+      "value": "318684"
+    },
+    "Spandau": {
+      "change": "1.004368",
+      "value": "209017"
+    },
+    "Charlottenburg-Wilmersdorf": {
+      "change": "0.996272",
+      "value": "299837"
+    },
+    "Tempelhof-Sch\u00f6neberg": {
+      "change": "0.995499",
+      "value": "322245"
+    },
+    "Pankow": {
+      "change": "1.010411",
+      "value": "334647"
+    },
+    "Marzahn-Hellersdorf": {
+      "change": "0.987201",
+      "value": "247831"
+    },
+    "Steglitz-Zehlendorf": {
+      "change": "0.998152",
+      "value": "278647"
+    },
+    "Neuk\u00f6lln": {
+      "change": "1.000139",
+      "value": "303113"
+    }
+  },
+  "2003": {
+    "Reinickendorf": {
+      "change": "0.999532",
+      "value": "239426"
+    },
+    "Friedrichshain-Kreuzberg": {
+      "change": "1.006923",
+      "value": "242597"
+    },
+    "Treptow-K\u00f6penick": {
+      "change": "1.003981",
+      "value": "222417"
+    },
+    "Lichtenberg": {
+      "change": "0.993883",
+      "value": "251835"
+    },
+    "Mitte": {
+      "change": "0.990533",
+      "value": "315667"
+    },
+    "Spandau": {
+      "change": "0.999550",
+      "value": "208923"
+    },
+    "Charlottenburg-Wilmersdorf": {
+      "change": "0.997849",
+      "value": "299192"
+    },
+    "Tempelhof-Sch\u00f6neberg": {
+      "change": "0.995820",
+      "value": "320898"
+    },
+    "Pankow": {
+      "change": "1.006308",
+      "value": "336758"
+    },
+    "Marzahn-Hellersdorf": {
+      "change": "0.986459",
+      "value": "244475"
+    },
+    "Steglitz-Zehlendorf": {
+      "change": "0.999490",
+      "value": "278505"
+    },
+    "Neuk\u00f6lln": {
+      "change": "0.997565",
+      "value": "302375"
+    }
+  },
+  "2004": {
+    "Reinickendorf": {
+      "change": "0.999549",
+      "value": "239318"
+    },
+    "Friedrichshain-Kreuzberg": {
+      "change": "1.011719",
+      "value": "245440"
+    },
+    "Treptow-K\u00f6penick": {
+      "change": "1.003561",
+      "value": "223209"
+    },
+    "Lichtenberg": {
+      "change": "0.995739",
+      "value": "250762"
+    },
+    "Mitte": {
+      "change": "1.001201",
+      "value": "316046"
+    },
+    "Spandau": {
+      "change": "0.998665",
+      "value": "208644"
+    },
+    "Charlottenburg-Wilmersdorf": {
+      "change": "0.999258",
+      "value": "298970"
+    },
+    "Tempelhof-Sch\u00f6neberg": {
+      "change": "0.995768",
+      "value": "319540"
+    },
+    "Pankow": {
+      "change": "1.009719",
+      "value": "340031"
+    },
+    "Marzahn-Hellersdorf": {
+      "change": "0.995615",
+      "value": "243403"
+    },
+    "Steglitz-Zehlendorf": {
+      "change": "1.001698",
+      "value": "278978"
+    },
+    "Neuk\u00f6lln": {
+      "change": "0.996789",
+      "value": "301404"
+    }
+  },
+  "2005": {
+    "Reinickendorf": {
+      "change": "0.993933",
+      "value": "237866"
+    },
+    "Friedrichshain-Kreuzberg": {
+      "change": "1.013258",
+      "value": "248694"
+    },
+    "Treptow-K\u00f6penick": {
+      "change": "1.000412",
+      "value": "223301"
+    },
+    "Lichtenberg": {
+      "change": "1.004730",
+      "value": "251948"
+    },
+    "Mitte": {
+      "change": "1.007053",
+      "value": "318275"
+    },
+    "Spandau": {
+      "change": "0.996937",
+      "value": "208005"
+    },
+    "Charlottenburg-Wilmersdorf": {
+      "change": "1.001144",
+      "value": "299312"
+    },
+    "Tempelhof-Sch\u00f6neberg": {
+      "change": "0.995910",
+      "value": "318233"
+    },
+    "Pankow": {
+      "change": "1.009205",
+      "value": "343161"
+    },
+    "Marzahn-Hellersdorf": {
+      "change": "0.996241",
+      "value": "242488"
+    },
+    "Steglitz-Zehlendorf": {
+      "change": "1.000255",
+      "value": "279049"
+    },
+    "Neuk\u00f6lln": {
+      "change": "0.999691",
+      "value": "301311"
+    }
+  },
+  "2006": {
+    "Reinickendorf": {
+      "change": "0.992920",
+      "value": "236182"
+    },
+    "Friedrichshain-Kreuzberg": {
+      "change": "1.015581",
+      "value": "252569"
+    },
+    "Treptow-K\u00f6penick": {
+      "change": "1.004608",
+      "value": "224330"
+    },
+    "Lichtenberg": {
+      "change": "0.998599",
+      "value": "251595"
+    },
+    "Mitte": {
+      "change": "1.012216",
+      "value": "322163"
+    },
+    "Spandau": {
+      "change": "0.997058",
+      "value": "207393"
+    },
+    "Charlottenburg-Wilmersdorf": {
+      "change": "1.002235",
+      "value": "299981"
+    },
+    "Tempelhof-Sch\u00f6neberg": {
+      "change": "0.996999",
+      "value": "317278"
+    },
+    "Pankow": {
+      "change": "1.012137",
+      "value": "347326"
+    },
+    "Marzahn-Hellersdorf": {
+      "change": "0.998008",
+      "value": "242005"
+    },
+    "Steglitz-Zehlendorf": {
+      "change": "1.000892",
+      "value": "279298"
+    },
+    "Neuk\u00f6lln": {
+      "change": "0.998596",
+      "value": "300888"
+    }
+  },
+  "2007": {
+    "Reinickendorf": {
+      "change": "0.995567",
+      "value": "235135"
+    },
+    "Friedrichshain-Kreuzberg": {
+      "change": "1.005812",
+      "value": "254037"
+    },
+    "Treptow-K\u00f6penick": {
+      "change": "1.001912",
+      "value": "224759"
+    },
+    "Lichtenberg": {
+      "change": "0.995004",
+      "value": "250338"
+    },
+    "Mitte": {
+      "change": "1.002651",
+      "value": "323017"
+    },
+    "Spandau": {
+      "change": "0.995405",
+      "value": "206440"
+    },
+    "Charlottenburg-Wilmersdorf": {
+      "change": "1.001930",
+      "value": "300560"
+    },
+    "Tempelhof-Sch\u00f6neberg": {
+      "change": "0.997211",
+      "value": "316393"
+    },
+    "Pankow": {
+      "change": "1.012795",
+      "value": "351770"
+    },
+    "Marzahn-Hellersdorf": {
+      "change": "0.995550",
+      "value": "240928"
+    },
+    "Steglitz-Zehlendorf": {
+      "change": "1.004024",
+      "value": "280422"
+    },
+    "Neuk\u00f6lln": {
+      "change": "1.003636",
+      "value": "301982"
+    }
+  },
+  "2008": {
+    "Reinickendorf": {
+      "change": "0.997355",
+      "value": "234513"
+    },
+    "Friedrichshain-Kreuzberg": {
+      "change": "1.007479",
+      "value": "255937"
+    },
+    "Treptow-K\u00f6penick": {
+      "change": "1.004681",
+      "value": "225811"
+    },
+    "Lichtenberg": {
+      "change": "1.000951",
+      "value": "250576"
+    },
+    "Mitte": {
+      "change": "1.000888",
+      "value": "323304"
+    },
+    "Spandau": {
+      "change": "0.999511",
+      "value": "206339"
+    },
+    "Charlottenburg-Wilmersdorf": {
+      "change": "1.001674",
+      "value": "301063"
+    },
+    "Tempelhof-Sch\u00f6neberg": {
+      "change": "1.003189",
+      "value": "317402"
+    },
+    "Pankow": {
+      "change": "1.006575",
+      "value": "354083"
+    },
+    "Marzahn-Hellersdorf": {
+      "change": "0.992695",
+      "value": "239168"
+    },
+    "Steglitz-Zehlendorf": {
+      "change": "1.003858",
+      "value": "281504"
+    },
+    "Neuk\u00f6lln": {
+      "change": "1.009050",
+      "value": "304715"
+    }
+  },
+  "2009": {
+    "Reinickendorf": {
+      "change": "0.998482",
+      "value": "234157"
+    },
+    "Friedrichshain-Kreuzberg": {
+      "change": "0.991810",
+      "value": "253841"
+    },
+    "Treptow-K\u00f6penick": {
+      "change": "1.007192",
+      "value": "227435"
+    },
+    "Lichtenberg": {
+      "change": "1.002199",
+      "value": "251127"
+    },
+    "Mitte": {
+      "change": "1.011686",
+      "value": "327082"
+    },
+    "Spandau": {
+      "change": "0.997553",
+      "value": "205834"
+    },
+    "Charlottenburg-Wilmersdorf": {
+      "change": "1.004803",
+      "value": "302509"
+    },
+    "Tempelhof-Sch\u00f6neberg": {
+      "change": "1.004011",
+      "value": "318675"
+    },
+    "Pankow": {
+      "change": "0.993809",
+      "value": "351891"
+    },
+    "Marzahn-Hellersdorf": {
+      "change": "0.998018",
+      "value": "238694"
+    },
+    "Steglitz-Zehlendorf": {
+      "change": "1.005890",
+      "value": "283162"
+    },
+    "Neuk\u00f6lln": {
+      "change": "1.007007",
+      "value": "306850"
+    }
+  },
+  "2010": {
+    "Reinickendorf": {
+      "change": "1.003220",
+      "value": "234911"
+    },
+    "Friedrichshain-Kreuzberg": {
+      "change": "1.004688",
+      "value": "255031"
+    },
+    "Treptow-K\u00f6penick": {
+      "change": "1.006283",
+      "value": "228864"
+    },
+    "Lichtenberg": {
+      "change": "1.007661",
+      "value": "253051"
+    },
+    "Mitte": {
+      "change": "0.998679",
+      "value": "326650"
+    },
+    "Spandau": {
+      "change": "1.012641",
+      "value": "208436"
+    },
+    "Charlottenburg-Wilmersdorf": {
+      "change": "1.000413",
+      "value": "302634"
+    },
+    "Tempelhof-Sch\u00f6neberg": {
+      "change": "1.003712",
+      "value": "319858"
+    },
+    "Pankow": {
+      "change": "1.014934",
+      "value": "357146"
+    },
+    "Marzahn-Hellersdorf": {
+      "change": "1.008383",
+      "value": "240695"
+    },
+    "Steglitz-Zehlendorf": {
+      "change": "1.007134",
+      "value": "285182"
+    },
+    "Neuk\u00f6lln": {
+      "change": "0.998540",
+      "value": "306402"
+    }
+  },
+  "2011": {
+    "Reinickendorf": {
+      "change": "1.010727",
+      "value": "237431"
+    },
+    "Friedrichshain-Kreuzberg": {
+      "change": "1.016641",
+      "value": "259275"
+    },
+    "Treptow-K\u00f6penick": {
+      "change": "1.008018",
+      "value": "230699"
+    },
+    "Lichtenberg": {
+      "change": "1.010753",
+      "value": "255772"
+    },
+    "Mitte": {
+      "change": "1.019905",
+      "value": "333152"
+    },
+    "Spandau": {
+      "change": "1.011956",
+      "value": "210928"
+    },
+    "Charlottenburg-Wilmersdorf": {
+      "change": "1.007828",
+      "value": "305003"
+    },
+    "Tempelhof-Sch\u00f6neberg": {
+      "change": "1.000619",
+      "value": "320056"
+    },
+    "Pankow": {
+      "change": "1.014109",
+      "value": "362185"
+    },
+    "Marzahn-Hellersdorf": {
+      "change": "1.012343",
+      "value": "243666"
+    },
+    "Steglitz-Zehlendorf": {
+      "change": "1.006350",
+      "value": "286993"
+    },
+    "Neuk\u00f6lln": {
+      "change": "1.019696",
+      "value": "312437"
+    }
+  },
+  "2012": {
+    "Reinickendorf": {
+      "change": "1.012981",
+      "value": "240513"
+    },
+    "Friedrichshain-Kreuzberg": {
+      "change": "1.016087",
+      "value": "263446"
+    },
+    "Treptow-K\u00f6penick": {
+      "change": "1.009380",
+      "value": "232863"
+    },
+    "Lichtenberg": {
+      "change": "1.016655",
+      "value": "260032"
+    },
+    "Mitte": {
+      "change": "1.020477",
+      "value": "339974"
+    },
+    "Spandau": {
+      "change": "1.012469",
+      "value": "213558"
+    },
+    "Charlottenburg-Wilmersdorf": {
+      "change": "1.013875",
+      "value": "309235"
+    },
+    "Tempelhof-Sch\u00f6neberg": {
+      "change": "0.997372",
+      "value": "319215"
+    },
+    "Pankow": {
+      "change": "1.016243",
+      "value": "368068"
+    },
+    "Marzahn-Hellersdorf": {
+      "change": "1.010888",
+      "value": "246319"
+    },
+    "Steglitz-Zehlendorf": {
+      "change": "1.006815",
+      "value": "288949"
+    },
+    "Neuk\u00f6lln": {
+      "change": "1.016240",
+      "value": "317511"
+    }
+  }
+}
