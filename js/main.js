@@ -1,9 +1,9 @@
 require.config({
   paths: {
-    leaflet:  "/bower_components/leaflet/dist/leaflet",
-    omnivore: "/bower_components/leaflet-omnivore/leaflet-omnivore",
-    lodash:   "/bower_components/lodash/dist/lodash",
-    jquery:   "/bower_components/jquery/dist/jquery"
+    leaflet:  "../bower_components/leaflet/dist/leaflet",
+    omnivore: "../bower_components/leaflet-omnivore/leaflet-omnivore",
+    lodash:   "../bower_components/lodash/dist/lodash",
+    jquery:   "../bower_components/jquery/dist/jquery"
   }
 });
 
