@@ -3,13 +3,15 @@ require.config({
     leaflet:  "../bower_components/leaflet/dist/leaflet",
     omnivore: "../bower_components/leaflet-omnivore/leaflet-omnivore",
     lodash:   "../bower_components/lodash/dist/lodash",
-    jquery:   "../bower_components/jquery/dist/jquery",
-    labels:   "./leaflet-label"
-  }
+    jquery:   "../bower_components/jquery/dist/jquery"
+  },
+  shim: {
+    "leaflet-label": {exports: "L.Label", deps: ["leaflet"]}
+    }
 });
 
 
-require(["leaflet", "omnivore", "lodash", "jquery", "labels"], function(L, omnivore, _, $, label){
+require(["leaflet", "omnivore", "lodash", "jquery", "leaflet-label"], function(L, omnivore, _, $, label){
   "use strict";
   var peopleData;
   var min = 1;
