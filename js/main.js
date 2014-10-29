@@ -3,16 +3,18 @@ require.config({
     leaflet:  "../bower_components/leaflet/dist/leaflet",
     omnivore: "../bower_components/leaflet-omnivore/leaflet-omnivore",
     lodash:   "../bower_components/lodash/dist/lodash",
-    jquery:   "../bower_components/jquery/dist/jquery"
+    jquery:   "../bower_components/jquery/dist/jquery",
+    labels:   "../js/leaflet-label"
   }
 });
 
 
-require(["leaflet", "omnivore", "lodash", "jquery"], function(L, omnivore, _, $){
+require(["leaflet", "omnivore", "lodash", "jquery", "labels"], function(L, omnivore, _, $, label){
   "use strict";
   var peopleData;
   var min = 1;
   var max = 1;
+  L.label = label;
   $.getJSON("./data.json", function(data){
     peopleData = data;
     window.p = peopleData;
@@ -26,7 +28,6 @@ require(["leaflet", "omnivore", "lodash", "jquery"], function(L, omnivore, _, $)
         if (change < min){
           min = change;
         }
-
       });
     });
   });
@@ -49,12 +50,17 @@ require(["leaflet", "omnivore", "lodash", "jquery"], function(L, omnivore, _, $)
   var colorDistrictsByYear = function(year){
     document.getElementById("year").innerHTML = year;
     _.forEach(districtLayer.getLayers(), function(district){
-      var o = district.feature.properties.id;
-      var change = peopleData[year.toString()][o].change;
+      var districtName = district.feature.properties.id;
+      var change = peopleData[year.toString()][districtName].change;
+      var population = peopleData[year.toString()][districtName].value;
       var red = change < 1 ? 0 : 255;
       var green = change > 1 ? 0 : 255;
       var color = "rgb(" + red + "," + green + ",0)";
       district.setStyle({"fillColor": color});
+      var label = new L.Label();
+      label.setContent(districtName + "<br />" + population);
+      label.setLatLng(district.getBounds().getCenter());
+      map.showLabel(label);
     });
   };
 
