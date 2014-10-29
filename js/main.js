@@ -13,7 +13,7 @@ require(["leaflet", "omnivore", "lodash", "jquery"], function(L, omnivore, _, $)
   var peopleData;
   var min = 1;
   var max = 1;
-  $.getJSON("../data.json", function(data){
+  $.getJSON("./data.json", function(data){
     peopleData = data;
     window.p = peopleData;
     _.forEach(peopleData, function(datum){
