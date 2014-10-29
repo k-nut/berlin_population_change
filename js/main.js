@@ -4,7 +4,7 @@ require.config({
     omnivore: "../bower_components/leaflet-omnivore/leaflet-omnivore",
     lodash:   "../bower_components/lodash/dist/lodash",
     jquery:   "../bower_components/jquery/dist/jquery",
-    labels:   "../js/leaflet-label"
+    labels:   "./leaflet-label"
   }
 });
 
