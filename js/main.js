@@ -14,7 +14,6 @@ require(["leaflet", "omnivore", "lodash", "jquery", "labels"], function(L, omniv
   var peopleData;
   var min = 1;
   var max = 1;
-  L.label = label;
   $.getJSON("./data.json", function(data){
     peopleData = data;
     window.p = peopleData;
