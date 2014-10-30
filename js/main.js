@@ -73,7 +73,7 @@ require(["leaflet", "omnivore", "lodash", "jquery", "leaflet-label"], function(L
         colorDistrictsByYear(years[counter]);
         counter++;
         if (counter === years.length){
-          window.clearInterval(interv);
+          counter = 0;
         }
       }, 1000);
     }
