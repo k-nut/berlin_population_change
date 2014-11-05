@@ -18,7 +18,6 @@ require(["leaflet", "omnivore", "lodash", "jquery", "leaflet-label"], function(L
   var max = 1;
   $.getJSON("./data.json", function(data){
     peopleData = data;
-    window.p = peopleData;
     _.forEach(peopleData, function(datum){
       var keys = _.keys(datum);
       _.forEach(keys, function(key){
@@ -33,7 +32,7 @@ require(["leaflet", "omnivore", "lodash", "jquery", "leaflet-label"], function(L
     });
   });
 
-  var map = L.map("map").setView([52.516, 13.350], 11);
+  var map = L.map("map")
 
   L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png", {
     attribution: "&copy; <a href='http://osm.org/copyright'>OpenStreetMap</a> contributors"
@@ -67,9 +66,10 @@ require(["leaflet", "omnivore", "lodash", "jquery", "leaflet-label"], function(L
 
   omnivore.topojson("./berlin_bezirke.topojson", null, districtLayer).addTo(map).on("ready",
     function(){
+      map.fitBounds(districtLayer.getBounds());
       var years = _.range(2001,2013);
       var counter = 0;
-      var interv = window.setInterval(function(){
+      window.setInterval(function(){
         colorDistrictsByYear(years[counter]);
         counter++;
         if (counter === years.length){
